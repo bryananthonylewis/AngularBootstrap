@@ -1,0 +1,25 @@
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+  <div class="container">
+    <a routerLink="" class="navbar-brand m-0 text-light">Inventory Management</a>
+    <div class="navbar-nav">
+      <a class="nav-link waves-light" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        Home
+      </a>
+      <a class="nav-link waves-light" routerLink="check" routerLinkActive="active">
+        Check
+      </a>
+      <a class="nav-link waves-light" routerLink="review" routerLinkActive="active">
+        Review
+      </a>
+
+      <a class="nav-link disabled">
+        Submit
+      </a>
+
+      <a class="nav-link" routerLink="submit">
+        Not Disabled - Submit
+      </a>
+
+    </div>
+  </div>
+</nav>

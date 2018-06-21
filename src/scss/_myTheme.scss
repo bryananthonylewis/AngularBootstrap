@@ -1,0 +1,11 @@
+// _myTheme.scss
+
+$theme-colors: (
+  "primary": #84329b,
+  "secondary": #02bceb
+);
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
